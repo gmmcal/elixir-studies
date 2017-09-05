@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/gmmcal/elixir-studies.svg)](https://travis-ci.org/gmmcal/elixir-studies)
+
 # Elixir Studies
 
 This repository is a collection of codes from Udemy course [The Complete Elixir and Phoenix Bootcamp](https://www.udemy.com/the-complete-elixir-and-phoenix-bootcamp-and-tutorial/) by Stephen Grider.
