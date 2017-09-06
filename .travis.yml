@@ -1,6 +1,17 @@
 language: elixir
 
 elixir:
-  - 1.5.1
+  - 1.3
+  - 1.4
+  - 1.5
 
-before_install: cd cards
+otp_release:
+  - 18.0
+  - 18.1
+  - 18.2.1
+
+env:
+  - APP_DIR=cards
+
+install: cd $APP_DIR && mix local.rebar --force && mix local.hex --force && mix deps.get
+script: cd $APP_DIR && mix test
