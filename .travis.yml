@@ -6,9 +6,9 @@ elixir:
   - 1.5.1
 
 otp_release:
-  - 18.0
-  - 18.1
-  - 18.2.1
+  - 18.3
+  - 19.3
+  - 20.0
 
 env:
   - APP_DIR=cards
